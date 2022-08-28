@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+    int t, n;
+    int num[300];
+
+    int max = num[0];
+    int min = num[0];
+    scanf("%d")
+    for(int t1 =0; t1 <t; t1++)
+    {
+        if(max < num[t1])
+            max = num[t1];
+            
+        if(min < num[t1])
+            mix = num[t1];
+    }
+    printf("%d %d\n", max, min);
+
+    return 0;
+}
